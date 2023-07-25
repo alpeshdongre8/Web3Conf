@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "TT Travels Trl-Medium";
+  src: url(./fonts/TT\ Travels\ Trial\ Medium.otf);
+}
+
+@font-face {
+  font-family: "TT Travels Trl-DemiBold";
+  src: url(./fonts/TT\ Travels\ Trial\ DemiBold.otf);
+}
+
+@font-face {
+  font-family: "TT Travels Trl-Regular";
+  src: url(./fonts/TT\ Travels\ Trial\ Regular.otf);
+}
+
+
+.LOGIN {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.LOGIN .div {
+  background: linear-gradient(
+    180deg,
+    rgb(11, 14, 51) 1.24%,
+    rgb(66, 36, 80) 34.15%,
+    rgb(66, 37, 81) 48.75%,
+    rgb(68, 38, 85) 62.61%,
+    rgb(18, 17, 57) 89.14%
+  );
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px none;
+  height: 1024px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.LOGIN .overlap {
+  background-image: url(https://gateway.pinata.cloud/ipfs/QmNqF8bgLdVm6ykaBrzP3SZTYaE6pWm1Anmm61eHvaoV2f/group-22.png);
+  background-size: 100% 100%;
+  height: 641px;
+  left: 0;
+  position: absolute;
+  top: 192px;
+  width: 1440px;
+}
+
+.LOGIN .frame {
+  background-color: #12113999;
+  border-radius: 15px;
+  height: 487px;
+  left: 465px;
+  overflow: hidden;
+  position: relative;
+  top: 77px;
+  width: 510px;
+}
+
+.LOGIN .group {
+  height: 307px;
+  left: 63px;
+  position: relative;
+  top: 90px;
+  width: 385px;
+}
+
+.LOGIN .img {
+  height: 87px;
+  left: 146px;
+  position: absolute;
+  top: 94px;
+  width: 93px;
+}
+
+.LOGIN .text-wrapper {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 37.2px;
+  font-weight: 500;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 55.9px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 383px;
+}
+
+.LOGIN .BUTTON-wrapper {
+  height: 76px;
+  left: 79px;
+  position: absolute;
+  top: 231px;
+  width: 226px;
+}
+
+.LOGIN .BUTTON {
+  background-color: #f5841f;
+  border-radius: 9.53px;
+  height: 76px;
+  position: relative;
+}
+
+.LOGIN .Address{
+  color: #ffffff;
+  font-family: "TT Travels Trl-DemiBold", Helvetica;
+}
+
+
+.LOGIN .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-DemiBold", Helvetica;
+  font-size: 25.4px;
+  font-weight: 700;
+  left: 37px;
+  letter-spacing: 0;
+  line-height: 38.1px;
+  position: absolute;
+  text-align: center;
+  top: 19px;
+  white-space: nowrap;
+  width: 153px;
+}
+
+.LOGIN .overlap-group {
+  height: 131px;
+  left: -2px;
+  position: absolute;
+  top: 0;
+  width: 1452px;
+}
+
+.LOGIN .overlap-group-wrapper {
+  height: 131px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1452px;
+}
+
+.LOGIN .overlap-group-2 {
+  background-color: #0b0e33;
+  box-shadow: 0px 0px 4px 1px #00000080;
+  height: 131px;
+  position: relative;
+  width: 1444px;
+}
+
+.LOGIN .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 712px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+}
+
+.LOGIN .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 1003px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+}
+
+.LOGIN .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 818px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+}
+
+.LOGIN .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 1182px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 52px;
+}
+
+.LOGIN .quant-comm {
+  height: 79px;
+  left: 71px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 254px;
+}
+
+.LOGIN .group-2 {
+  height: 57px;
+  left: 1286px;
+  position: absolute;
+  top: 40px;
+  width: 60px;
+}
+
+
+
+
+

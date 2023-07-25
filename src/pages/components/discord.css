@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "TT Travels Trl-Medium";
+    src: url(./fonts/TT\ Travels\ Trial\ Medium.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-ExtraBold";
+    src: url(./fonts/TT\ Travels\ Trial\ ExtraBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-DemiBold";
+    src: url(./fonts/TT\ Travels\ Trial\ DemiBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Regular";
+    src: url(./fonts/TT\ Travels\ Trial\ Regular.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Bold";
+    src: url(./fonts/TT\ Travels\ Trial\ Bold.otf);
+  }
+  
+  
+  @font-face {
+    font-family: "Paladins-Regular";
+    src: url(./fonts/paladins.ttf);
+  }
+
+
+  .ABOUT-US .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 29px;
+    font-weight: 500;
+    left: 125px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1830px;
+    width: 264px;
+  }

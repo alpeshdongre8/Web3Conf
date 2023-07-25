@@ -1,0 +1,108 @@
+@font-face {
+    font-family: "TT Travels Trl-Medium";
+    src: url(./fonts/TT\ Travels\ Trial\ Medium.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-ExtraBold";
+    src: url(./fonts/TT\ Travels\ Trial\ ExtraBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-DemiBold";
+    src: url(./fonts/TT\ Travels\ Trial\ DemiBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Regular";
+    src: url(./fonts/TT\ Travels\ Trial\ Regular.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Bold";
+    src: url(./fonts/TT\ Travels\ Trial\ Bold.otf);
+  }
+  
+  
+  @font-face {
+    font-family: "Paladins-Regular";
+    src: url(./fonts/paladins.ttf);
+  }
+  
+
+
+
+.ABOUT-US .overlap-3 {
+    background-color: #0b0e33;
+    box-shadow: 0px 0px 4px 1px #00000080;
+    height: 131px;
+    left: -4px;
+    position: absolute;
+    top: 0;
+    width: 1444px;
+  }
+  
+  .ABOUT-US .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 712px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .ABOUT-US .text-wrapper-10 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1003px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .ABOUT-US .text-wrapper-11 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 818px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .ABOUT-US .text-wrapper-12 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .ABOUT-US .quant-comm {
+    height: 79px;
+    left: 71px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 254px;
+  }
+  
+  .ABOUT-US .group-5 {
+    height: 57px;
+    left: 1288px;
+    position: absolute;
+    top: 40px;
+    width: 60px;
+  }

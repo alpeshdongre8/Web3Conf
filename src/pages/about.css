@@ -1,0 +1,583 @@
+@font-face {
+  font-family: "TT Travels Trl-Medium";
+  src: url(./fonts/TT\ Travels\ Trial\ Medium.otf);
+}
+
+@font-face {
+  font-family: "TT Travels Trl-ExtraBold";
+  src: url(./fonts/TT\ Travels\ Trial\ ExtraBold.otf);
+}
+
+@font-face {
+  font-family: "TT Travels Trl-DemiBold";
+  src: url(./fonts/TT\ Travels\ Trial\ DemiBold.otf);
+}
+
+@font-face {
+  font-family: "TT Travels Trl-Regular";
+  src: url(./fonts/TT\ Travels\ Trial\ Regular.otf);
+}
+
+@font-face {
+  font-family: "TT Travels Trl-Bold";
+  src: url(./fonts/TT\ Travels\ Trial\ Bold.otf);
+}
+
+
+@font-face {
+  font-family: "Paladins-Regular";
+  src: url(./fonts/paladins.ttf);
+}
+
+
+.ABOUT-US {
+  background-color: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.ABOUT-US .div {
+  background: linear-gradient(
+    180deg,
+    rgb(11, 14, 51) 1.24%,
+    rgb(66, 36, 80) 34.15%,
+    rgb(66, 37, 81) 48.75%,
+    rgb(68, 38, 85) 62.61%,
+    rgb(18, 17, 57) 89.14%
+  );
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px none;
+  height: 3244px;
+  overflow: hidden;
+  position: relative;
+  width: 1440px;
+}
+
+.ABOUT-US .overlap {
+  height: 2878px;
+  left: 0;
+  position: absolute;
+  top: 287px;
+  width: 1440px;
+}
+
+.ABOUT-US .overlap-group {
+  height: 1423px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1440px;
+}
+
+.ABOUT-US .group {
+  height: 569px;
+  left: 450px;
+  position: absolute;
+  top: 148px;
+  width: 1200px;
+}
+
+.ABOUT-US .clip-path-group {
+  height: 505px;
+  left: 0;
+  position: absolute;
+  top: 623px;
+  width: 655px;
+}
+
+.ABOUT-US .ellipse {
+  background-color: #bf67ce;
+  border-radius: 225.84px/237.8px;
+  filter: blur(919.93px);
+  height: 476px;
+  left: 219px;
+  position: absolute;
+  top: 0;
+  width: 452px;
+}
+
+.ABOUT-US .ellipse-2 {
+  background-color: #bf67ce;
+  border-radius: 205.6px/216.64px;
+  filter: blur(919.93px);
+  height: 433px;
+  left: 192px;
+  position: absolute;
+  top: 557px;
+  width: 411px;
+}
+
+.ABOUT-US .text-wrapper {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 92.5px;
+  font-weight: 500;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 530px;
+  width: 754px;
+}
+
+.ABOUT-US .p {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 92.5px;
+  font-weight: 500;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0px;
+  width: 850px;
+}
+
+.ABOUT-US .text-wrapper-2 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 29.7px;
+  font-weight: 400;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 299px;
+  width: 830px;
+}
+
+.ABOUT-US .text-wrapper-3 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 29.7px;
+  font-weight: 400;
+  left: 68px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 796px;
+  width: 830px;
+}
+
+.ABOUT-US .rectangle {
+  background-color: #420c5e80;
+  border-bottom-style: solid;
+  border-bottom-width: 0.92px;
+  border-color: #808080;
+  border-radius: 13.8px;
+  border-top-style: solid;
+  border-top-width: 0.92px;
+  height: 200px;
+  left: 68px;
+  position: absolute;
+  top: 1023px;
+  width: 598px;
+}
+
+.ABOUT-US .rectangle-2 {
+  background-color: #420c5e80;
+  border-bottom-style: solid;
+  border-bottom-width: 0.92px;
+  border-color: #808080;
+  border-radius: 13.8px;
+  border-top-style: solid;
+  border-top-width: 0.92px;
+  height: 201px;
+  left: 67px;
+  position: absolute;
+  top: 1222px;
+  width: 600px;
+}
+
+.ABOUT-US .frame {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  left: 87px;
+  position: absolute;
+  top: 1077px;
+  width: 306px;
+}
+
+.ABOUT-US .text-wrapper-4 {
+  align-self: stretch;
+  color: #ffffff;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 38.6px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+}
+
+.ABOUT-US .UI-UX-frontend {
+  color: #c0c0c0;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: fit-content;
+}
+
+.ABOUT-US .frame-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  left: 87px;
+  position: absolute;
+  top: 1277px;
+  width: 306px;
+}
+
+.ABOUT-US .UI-UX-frontend-2 {
+  color: #c0c0c0;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 2400px;
+}
+
+.ABOUT-US .bi-linkedin {
+  height: 37px;
+  left: 539px;
+  position: absolute;
+  top: 1105px;
+  width: 37px;
+}
+
+.ABOUT-US .bi-twitter {
+  height: 37px;
+  left: 609px;
+  position: absolute;
+  top: 1105px;
+  width: 37px;
+}
+
+.ABOUT-US .img {
+  height: 37px;
+  left: 539px;
+  position: absolute;
+  top: 1304px;
+  width: 37px;
+}
+
+.ABOUT-US .bi-twitter-2 {
+  height: 37px;
+  left: 609px;
+  position: absolute;
+  top: 1304px;
+  width: 37px;
+}
+
+.ABOUT-US .overlap-2 {
+  height: 1855px;
+  left: 57px;
+  position: absolute;
+  top: 1023px;
+  width: 1383px;
+}
+
+.ABOUT-US .clip-path-group-2 {
+  height: 505px;
+  left: 784px;
+  position: absolute;
+  top: 275px;
+  width: 599px;
+}
+
+.ABOUT-US .clip-path-group-3 {
+  height: 505px;
+  left: 784px;
+  position: absolute;
+  top: 1350px;
+  width: 599px;
+}
+
+.ABOUT-US .ellipse-3 {
+  background-color: #000b654c;
+  border-radius: 526.5px/554.5px;
+  filter: blur(737px);
+  height: 1109px;
+  left: 315px;
+  position: absolute;
+  top: 662px;
+  width: 1053px;
+}
+
+.ABOUT-US .text-wrapper-5 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 29.4px;
+  font-weight: 500;
+  left: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1550px;
+  width: 830px;
+}
+
+.ABOUT-US .text-wrapper-6 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 92.5px;
+  font-weight: 500;
+  left: 422px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: right;
+  top: 530px;
+  white-space: nowrap;
+  width: 360px;
+}
+
+.ABOUT-US .text-wrapper-7 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-DemiBold", Helvetica;
+  font-size: 92.5px;
+  font-weight: 700;
+  left: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 1450px;
+  white-space: nowrap;
+  width: 381px;
+}
+
+.ABOUT-US .our-community-is {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 25px;
+  font-weight: 400;
+  left: 440px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 660px;
+  width: 885px;
+}
+
+.ABOUT-US .rectangle-3 {
+  background-color: #420c5e80;
+  border-bottom-style: solid;
+  border-bottom-width: 0.92px;
+  border-color: #808080;
+  border-radius: 13.8px;
+  border-top-style: solid;
+  border-top-width: 0.92px;
+  height: 201px;
+  left: 686px;
+  position: absolute;
+  top: 199px;
+  width: 600px;
+}
+
+.ABOUT-US .frame-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  left: 706px;
+  position: absolute;
+  top: 254px;
+  width: 306px;
+}
+
+.ABOUT-US .frontend-backend-dev {
+  align-self: stretch;
+  color: #c0c0c0;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.ABOUT-US .group-2 {
+  background-color: #420c5e80;
+  border-bottom-style: solid;
+  border-bottom-width: 0.92px;
+  border-color: #808080;
+  border-radius: 13.8px;
+  border-top-style: solid;
+  border-top-width: 0.92px;
+  height: 200px;
+  left: 687px;
+  position: absolute;
+  top: 0;
+  width: 598px;
+}
+
+.ABOUT-US .frame-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  left: 18px;
+  position: absolute;
+  top: 53px;
+  width: 306px;
+}
+
+.ABOUT-US .frontend-backend-dev-2 {
+  align-self: stretch;
+  color: #c0c0c0;
+  font-family: "TT Travels Trl-Medium", Helvetica;
+  font-size: 23px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+}
+
+.ABOUT-US .bi-linkedin-2 {
+  height: 40px;
+  left: 453px;
+  position: absolute;
+  top: 79px;
+  width: 40px;
+}
+
+.ABOUT-US .bi-twitter-3 {
+  height: 40px;
+  left: 529px;
+  position: absolute;
+  top: 79px;
+  width: 40px;
+}
+
+.ABOUT-US .bi-linkedin-3 {
+  height: 40px;
+  left: 1128px;
+  position: absolute;
+  top: 279px;
+  width: 40px;
+}
+
+.ABOUT-US .bi-twitter-4 {
+  height: 40px;
+  left: 1204px;
+  position: absolute;
+  top: 279px;
+  width: 40px;
+}
+
+.ABOUT-US .group-3 {
+  height: 712px;
+  left: 0;
+  position: absolute;
+  top: 485px;
+  width: 391px;
+}
+
+.ABOUT-US .text-wrapper-8 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-DemiBold", Helvetica;
+  font-size: 29px;
+  font-weight: 500;
+  left: 125px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1830px;
+  width: 264px;
+}
+
+.ABOUT-US .group-4 {
+  height: 95px;
+  left: 16px;
+  position: absolute;
+  top: 1800px;
+  width: 95px;
+}
+
+.ABOUT-US .overlap-3 {
+  background-color: #0b0e33;
+  box-shadow: 0px 0px 4px 1px #00000080;
+  height: 131px;
+  left: -4px;
+  position: absolute;
+  top: 0;
+  width: 1444px;
+}
+
+.ABOUT-US .text-wrapper-9 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 712px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+}
+
+.ABOUT-US .text-wrapper-10 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 1003px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+}
+
+.ABOUT-US .text-wrapper-11 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 818px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+}
+
+.ABOUT-US .text-wrapper-12 {
+  color: #ffffff;
+  font-family: "TT Travels Trl-Regular", Helvetica;
+  font-size: 24.7px;
+  font-weight: 400;
+  left: 1182px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 51px;
+}
+
+.ABOUT-US .quant-comm {
+  height: 79px;
+  left: 71px;
+  object-fit: cover;
+  position: absolute;
+  top: 25px;
+  width: 254px;
+}
+
+.ABOUT-US .group-5 {
+  height: 57px;
+  left: 1288px;
+  position: absolute;
+  top: 40px;
+  width: 60px;
+}

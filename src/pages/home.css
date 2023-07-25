@@ -1,0 +1,905 @@
+@font-face {
+    font-family: "TT Travels Trl-Medium";
+    src: url(./fonts/TT\ Travels\ Trial\ Medium.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-ExtraBold";
+    src: url(./fonts/TT\ Travels\ Trial\ ExtraBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-DemiBold";
+    src: url(./fonts/TT\ Travels\ Trial\ DemiBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Regular";
+    src: url(./fonts/TT\ Travels\ Trial\ Regular.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Bold";
+    src: url(./fonts/TT\ Travels\ Trial\ Bold.otf);
+  }
+  
+  
+  @font-face {
+    font-family: "Paladins-Regular";
+    src: url(./fonts/paladins.ttf);
+  }
+  
+  .LANDING-PAGE-HERO {
+    background-color: #0b0e33;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .LANDING-PAGE-HERO .div {
+    background-color: #0b0e33;
+    border: 1px none;
+    height: 3456px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap {
+    height: 2506px;
+    left: -149px;
+    position: absolute;
+    top: 0;
+    width: 1589px;
+  }
+  
+  .LANDING-PAGE-HERO .welcome-to-our {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Medium", Helvetica;
+    font-size: 28px;
+    font-weight: 500;
+    left: 342px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 1180px;
+    width: 1054px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse {
+    background-color: #ff72b5;
+    border-radius: 216px/184.5px;
+    filter: blur(700px);
+    height: 369px;
+    left: 0;
+    position: absolute;
+    top: 723px;
+    width: 432px;
+  }
+  
+  .LANDING-PAGE-HERO .img {
+    height: 1623px;
+    left: 256px;
+    position: absolute;
+    top: 0;
+    width: 1333px;
+  }
+  
+  .LANDING-PAGE-HERO .frame {
+    height: 78px;
+    left: 269px;
+    position: absolute;
+    top: 26px;
+    width: 253px;
+  }
+  
+  .LANDING-PAGE-HERO .quant-community {
+    height: 306px;
+    left: 252px;
+    object-fit: cover;
+    position: absolute;
+    top: 261px;
+    width: 870px;
+  }
+  
+  .LANDING-PAGE-HERO .group {
+    height: 72px;
+    left: 271px;
+    position: absolute;
+    top: 651px;
+    width: 278px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-group {
+    background: linear-gradient(180deg, rgb(174, 48, 235) 34.65%, rgb(88, 69, 211) 71.89%);
+    border-radius: 16.76px;
+    height: 72px;
+    position: relative;
+    width: 276px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper {
+    color: #ffffffcc;
+    font-family: "TT Travels Trl-ExtraBold", Helvetica;
+    font-size: 22.7px;
+    font-weight: 800;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    white-space: nowrap;
+    width: 241px;
+  }
+  
+  .LANDING-PAGE-HERO .ASTRO {
+    height: 603px;
+    left: 886px;
+    position: absolute;
+    top: 421px;
+    width: 687px;
+  }
+  
+  .LANDING-PAGE-HERO .clip-path-group {
+    height: 535px;
+    left: 149px;
+    position: absolute;
+    top: 999px;
+    width: 539px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-2 {
+    background-color: #ff72b5;
+    border-radius: 546px/98px;
+    filter: blur(700px);
+    height: 196px;
+    left: 293px;
+    position: absolute;
+    top: 1142px;
+    width: 1092px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-wrapper {
+    height: 994px;
+    left: 216px;
+    position: absolute;
+    top: 1512px;
+    width: 1307px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-2 {
+    height: 935px;
+    left: 64px;
+    position: relative;
+    top: 29px;
+    width: 1179px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-group-wrapper {
+    background-color: #0b0e33;
+    border-radius: 25px;
+    box-shadow: 5px -9px 71px #ffffff26, inset 0px 10px 33px #ffffff26;
+    height: 935px;
+    left: 131px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 917px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-3 {
+    height: 1085px;
+    left: -190px;
+    position: relative;
+    top: -93px;
+    width: 1205px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-4 {
+    height: 501px;
+    left: 418px;
+    position: absolute;
+    top: 0;
+    width: 787px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-3 {
+    background-color: #671487;
+    border-radius: 209px;
+    filter: blur(274px);
+    height: 418px;
+    left: 369px;
+    position: absolute;
+    top: 0;
+    width: 418px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-4 {
+    background-color: #ababab;
+    border-radius: 162.5px;
+    filter: blur(274px);
+    height: 325px;
+    left: 68px;
+    position: absolute;
+    top: 8px;
+    width: 325px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-5 {
+    background-color: #a34ec4;
+    border-radius: 137px/168px;
+    filter: blur(352px);
+    height: 336px;
+    left: 0;
+    position: absolute;
+    top: 165px;
+    width: 274px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-5 {
+    height: 778px;
+    left: 0;
+    position: absolute;
+    top: 307px;
+    width: 984px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-6 {
+    background-color: #671487;
+    border-radius: 209px;
+    filter: blur(450px);
+    height: 418px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 418px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-group-2 {
+    height: 442px;
+    left: 375px;
+    position: absolute;
+    top: 336px;
+    width: 609px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-7 {
+    background-color: #671487;
+    border-radius: 209px;
+    filter: blur(352px);
+    height: 418px;
+    left: 191px;
+    position: absolute;
+    top: 0;
+    width: 418px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-8 {
+    background-color: #a34ec4;
+    border-radius: 137px/168px;
+    filter: blur(352px);
+    height: 336px;
+    left: 0;
+    position: absolute;
+    top: 106px;
+    width: 274px;
+  }
+  
+  .LANDING-PAGE-HERO .frame-2 {
+    height: 55px;
+    left: 68px;
+    position: absolute;
+    top: 123px;
+    width: 176px;
+  }
+  
+  .LANDING-PAGE-HERO .div-wrapper {
+    height: 839px;
+    left: 0;
+    position: absolute;
+    top: 48px;
+    width: 1179px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-6 {
+    height: 839px;
+    position: relative;
+  }
+  
+  .LANDING-PAGE-HERO .group-2 {
+    height: 839px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1179px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-group-3 {
+    border-radius: 0px 0px 25px 25px;
+    height: 788px;
+    left: 0;
+    position: absolute;
+    top: 51px;
+    width: 1179px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-9 {
+    background-color: #d9d9d9;
+    border-radius: 112.5px;
+    height: 225px;
+    left: 867px;
+    position: absolute;
+    top: 96px;
+    width: 225px;
+  }
+  
+  .LANDING-PAGE-HERO .rectangle {
+    background-color: #121648;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #272727;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 0px 0px 25px 25px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    height: 788px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1179px;
+  }
+  
+  .LANDING-PAGE-HERO .rectangle-2 {
+    background-color: #c0c0c033;
+    border-color: #272727;
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-radius: 25px 25px 0px 0px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    height: 51px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1179px;
+  }
+  
+  .LANDING-PAGE-HERO .rectangle-3 {
+    border: 2px solid;
+    border-color: #00ff6b;
+    border-radius: 10px;
+    height: 39px;
+    left: 867px;
+    position: absolute;
+    top: 67px;
+    width: 174px;
+  }
+  
+  .LANDING-PAGE-HERO .rectangle-4 {
+    border: 2px solid;
+    border-color: #575757;
+    border-radius: 10px;
+    height: 39px;
+    left: 1070px;
+    position: absolute;
+    top: 67px;
+    width: 39px;
+  }
+  
+  .LANDING-PAGE-HERO .line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 124px;
+    width: 1179px;
+  }
+  
+  .LANDING-PAGE-HERO .group-3 {
+    height: 21px;
+    left: 882px;
+    position: absolute;
+    top: 76px;
+    width: 24px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-2 {
+    color: #00ff6b;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 15px;
+    font-weight: 700;
+    left: 912px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 78px;
+    white-space: nowrap;
+    width: 108px;
+  }
+  
+  .LANDING-PAGE-HERO .group-4 {
+    height: 22px;
+    left: 1087px;
+    position: absolute;
+    top: 76px;
+    width: 5px;
+  }
+  
+  .LANDING-PAGE-HERO .logo {
+    height: 54px;
+    left: 61px;
+    object-fit: cover;
+    position: absolute;
+    top: 59px;
+    width: 174px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-10 {
+    background-color: #000000;
+    border-radius: 370px/32.5px;
+    filter: blur(135px);
+    height: 65px;
+    left: 849px;
+    position: absolute;
+    top: 1004px;
+    width: 740px;
+  }
+  
+  .LANDING-PAGE-HERO .group-5 {
+    height: 497px;
+    left: 1107px;
+    position: absolute;
+    top: 163px;
+    width: 482px;
+  }
+  
+  .LANDING-PAGE-HERO .rectangle-5 {
+    background-color: #0b0e33;
+    box-shadow: 0px 0px 4px 1px #00000080;
+    height: 131px;
+    left: 145px;
+    position: absolute;
+    top: 0;
+    width: 1444px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 857px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1148px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 963px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1327px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .LANDING-PAGE-HERO .logo-2 {
+    height: 79px;
+    left: 216px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 254px;
+  }
+  
+  .LANDING-PAGE-HERO .group-6 {
+    height: 57px;
+    left: 1433px;
+    position: absolute;
+    top: 40px;
+    width: 60px;
+  }
+  
+  .LANDING-PAGE-HERO .p {
+    color: #9b9b9b;
+    font-family: "TT Travels Trl-Medium", Helvetica;
+    font-size: 28px;
+    font-weight: 500;
+    left: 122px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3236px;
+    width: 967px;
+  }
+  
+  .LANDING-PAGE-HERO .group-7 {
+    height: 54px;
+    left: 122px;
+    position: absolute;
+    top: 3337px;
+    width: 210px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-7 {
+    background: linear-gradient(180deg, rgb(174, 48, 235) 34.65%, rgb(88, 69, 211) 71.89%);
+    border-radius: 12.63px;
+    height: 54px;
+    position: relative;
+    width: 208px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-7 {
+    color: #ffffffcc;
+    font-family: "TT Travels Trl-ExtraBold", Helvetica;
+    font-size: 17.1px;
+    font-weight: 800;
+    left: 13px;
+    letter-spacing: 0;
+    line-height: 25.6px;
+    position: absolute;
+    text-align: center;
+    top: 14px;
+    white-space: nowrap;
+    width: 182px;
+  }
+  
+  .LANDING-PAGE-HERO .h-1 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 92.5px;
+    font-weight: 700;
+    left: 434px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 2582px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-8 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 92.5px;
+    font-weight: 700;
+    left: 119px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 3125px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-8 {
+    border-radius: 10px;
+    height: 244px;
+    left: 122px;
+    position: absolute;
+    top: 2771px;
+    width: 368px;
+  }
+  
+  .LANDING-PAGE-HERO .frame-3 {
+    background-color: #0b0e33;
+    border: 0.5px solid;
+    border-color: #373737;
+    border-radius: 10px;
+    height: 244px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 368px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-11 {
+    background-color: #ffffff;
+    border-radius: 178px/13.5px;
+    filter: blur(213px);
+    height: 27px;
+    left: 12px;
+    position: absolute;
+    top: 224px;
+    width: 356px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-9 {
+    background-color: #1b2168;
+    border-radius: 10px;
+    height: 64px;
+    left: 28px;
+    position: absolute;
+    top: 28px;
+    width: 64px;
+  }
+  
+  .LANDING-PAGE-HERO .group-8 {
+    height: 55px;
+    left: 6px;
+    position: absolute;
+    top: 9px;
+    width: 51px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-9 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 104px;
+    width: 295px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-10 {
+    color: #ababab;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+    width: 267px;
+  }
+  
+  .LANDING-PAGE-HERO .group-9 {
+    height: 32px;
+    left: 28px;
+    position: absolute;
+    top: 192px;
+    width: 102px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-group-4 {
+    background-color: #0c0f34;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px #00000040;
+    height: 32px;
+    position: relative;
+    width: 100px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-11 {
+    color: #606cff;
+    font-family: "TT Travels Trl-Bold", Helvetica;
+    font-size: 14px;
+    font-weight: 700;
+    left: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 8px;
+    width: 80px;
+  }
+  
+  .LANDING-PAGE-HERO .vector {
+    height: 8px;
+    left: 81px;
+    position: absolute;
+    top: 13px;
+    width: 10px;
+  }
+  
+  .LANDING-PAGE-HERO .frame-4 {
+    background-color: #0b0e33;
+    border: 0.5px solid;
+    border-color: #373737;
+    border-radius: 10px;
+    height: 244px;
+    left: 546px;
+    overflow: hidden;
+    position: absolute;
+    top: 2771px;
+    width: 368px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-10 {
+    height: 58px;
+    left: 12px;
+    position: absolute;
+    top: 193px;
+    width: 356px;
+  }
+  
+  .LANDING-PAGE-HERO .ellipse-12 {
+    background-color: #ffffff;
+    border-radius: 178px/13.5px;
+    filter: blur(213px);
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 31px;
+    width: 356px;
+  }
+  
+  .LANDING-PAGE-HERO .group-wrapper {
+    height: 32px;
+    left: 16px;
+    position: absolute;
+    top: 0;
+    width: 100px;
+  }
+  
+  .LANDING-PAGE-HERO .group-10 {
+    height: 32px;
+  }
+  
+  .LANDING-PAGE-HERO .overlap-11 {
+    height: 32px;
+    position: relative;
+    width: 102px;
+  }
+  
+  .LANDING-PAGE-HERO .group-11 {
+    height: 32px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 102px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-12 {
+    -webkit-text-stroke: 0.3px #000000;
+    color: #ffffff;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: 1px 1px 0px #c792ef;
+    top: 14px;
+    white-space: nowrap;
+    width: 53px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-13 {
+    -webkit-text-stroke: 0.3px #000000;
+    color: #ffffff;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.5;
+    position: absolute;
+    text-shadow: 1px 1px 0px #c792ef;
+    top: 25px;
+    white-space: nowrap;
+    width: 53px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-14 {
+    -webkit-text-stroke: 0.3px #000000;
+    color: #ffffff;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    left: 5px;
+    letter-spacing: 0;
+    line-height: normal;
+    opacity: 0.3;
+    position: absolute;
+    text-shadow: 1px 1px 0px #c792ef;
+    top: 36px;
+    white-space: nowrap;
+    width: 53px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-15 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 104px;
+    width: 181px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-16 {
+    color: #ababab;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+    width: 306px;
+  }
+  
+  .LANDING-PAGE-HERO .frame-5 {
+    background-color: #0b0e33;
+    border: 0.5px solid;
+    border-color: #373737;
+    border-radius: 10px;
+    height: 244px;
+    left: 970px;
+    overflow: hidden;
+    position: absolute;
+    top: 2771px;
+    width: 368px;
+  }
+  
+  .LANDING-PAGE-HERO .vector-2 {
+    height: 55px;
+    left: 10px;
+    position: absolute;
+    top: 8px;
+    width: 44px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-17 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Bold", Helvetica;
+    font-size: 20px;
+    font-weight: 700;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 104px;
+    width: 118px;
+  }
+  
+  .LANDING-PAGE-HERO .text-wrapper-18 {
+    color: #ababab;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    left: 28px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 138px;
+    width: 272px;
+  }
+
+  
+  
+  
+  

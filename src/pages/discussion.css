@@ -1,0 +1,557 @@
+@font-face {
+    font-family: "TT Travels Trl-Medium";
+    src: url(./fonts/TT\ Travels\ Trial\ Medium.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-ExtraBold";
+    src: url(./fonts/TT\ Travels\ Trial\ ExtraBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-DemiBold";
+    src: url(./fonts/TT\ Travels\ Trial\ DemiBold.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Regular";
+    src: url(./fonts/TT\ Travels\ Trial\ Regular.otf);
+  }
+  
+  @font-face {
+    font-family: "TT Travels Trl-Bold";
+    src: url(./fonts/TT\ Travels\ Trial\ Bold.otf);
+  }
+  
+  
+  @font-face {
+    font-family: "Paladins-Regular";
+    src: url(./fonts/paladins.ttf);
+  }
+  
+
+/* .DISCUSSIONS {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .DISCUSSIONS .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .DISCUSSIONS .overlap {
+    height: 1223px;
+    left: -145px;
+    position: relative;
+    width: 1619px;
+  }
+  
+  .DISCUSSIONS .rectangle {
+    background-color: #070b30;
+    height: 1024px;
+    left: 141px;
+    position: absolute;
+    top: 0;
+    width: 1450px;
+  }
+  
+  .DISCUSSIONS .ellipse {
+    background-color: #ff72b5;
+    border-radius: 217.5px/185.5px;
+    filter: blur(700px);
+    height: 371px;
+    left: 0;
+    position: absolute;
+    top: 728px;
+    width: 435px;
+  }
+  
+  .DISCUSSIONS .div {
+    background-color: #ff72b5;
+    border-radius: 217.5px/186px;
+    filter: blur(700px);
+    height: 372px;
+    left: 1184px;
+    position: absolute;
+    top: 851px;
+    width: 435px;
+  }
+  
+  .DISCUSSIONS .img {
+    height: 1024px;
+    left: 255px;
+    position: absolute;
+    top: 0;
+    width: 1330px;
+  }
+  
+  .DISCUSSIONS .rectangle-2 {
+    background-color: #0b0e33;
+    box-shadow: 0px 0px 4px 1px #00000080;
+    height: 131px;
+    left: 141px;
+    position: absolute;
+    top: 0;
+    width: 1444px;
+  }
+  
+  .DISCUSSIONS .text-wrapper {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 853px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1144px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 959px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1323px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .quant-comm {
+    height: 79px;
+    left: 212px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 254px;
+  }
+  
+  .DISCUSSIONS .group {
+    height: 57px;
+    left: 1429px;
+    position: absolute;
+    top: 40px;
+    width: 60px;
+  }
+  
+  .DISCUSSIONS .section-title {
+    height: 71px;
+    left: 233px;
+    position: absolute;
+    top: 171px;
+    width: 1259px;
+  }
+  
+  .DISCUSSIONS .text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 21px;
+    position: relative;
+    top: 28px;
+    width: 1040px;
+  }
+  
+  .DISCUSSIONS .title {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 31.8px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 42.3px;
+    margin-top: -1.76px;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .DISCUSSIONS .rectangle-3 {
+    background-color: #ffffffcc;
+    border-radius: 10px;
+    height: 50px;
+    left: 233px;
+    position: absolute;
+    top: 914px;
+    width: 1259px;
+  }
+  
+  .DISCUSSIONS .overlap-group-wrapper {
+    height: 38px;
+    left: 1433px;
+    position: absolute;
+    top: 920px;
+    width: 38px;
+  }
+  
+  .DISCUSSIONS .overlap-group {
+    border: 1px solid;
+    border-color: #8c8c8c;
+    border-radius: 7.45px;
+    height: 40px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 40px;
+  }
+  
+  .DISCUSSIONS .vector {
+    height: 22px;
+    left: 9px;
+    position: absolute;
+    top: 8px;
+    width: 22px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-5 {
+    color: #878787;
+    font-family: "TT Travels Trl-Medium", Helvetica;
+    font-size: 21.2px;
+    font-weight: 500;
+    left: 259px;
+    letter-spacing: 0;
+    line-height: 28.2px;
+    position: absolute;
+    top: 927px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .DISCUSSIONS .rectangle-4 {
+    background-color: #ffffff33;
+    border-radius: 10px;
+    height: 592px;
+    left: 233px;
+    position: absolute;
+    top: 273px;
+    width: 1259px;
+  } */
+
+
+  .DISCUSSIONS {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .DISCUSSIONS .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+  }
+  
+  .DISCUSSIONS .overlap {
+    height: 1223px;
+    left: -145px;
+    position: relative;
+    width: 1619px;
+  }
+  
+  .DISCUSSIONS .rectangle {
+    background-color: #070b30;
+    height: 1024px;
+    left: 141px;
+    position: absolute;
+    top: 0;
+    width: 1450px;
+  }
+  
+  .DISCUSSIONS .ellipse {
+    background-color: #ff72b5;
+    border-radius: 217.5px/185.5px;
+    filter: blur(700px);
+    height: 371px;
+    left: 0;
+    position: absolute;
+    top: 728px;
+    width: 435px;
+  }
+  
+  .DISCUSSIONS .div {
+    background-color: #ff72b5;
+    border-radius: 217.5px/186px;
+    filter: blur(700px);
+    height: 372px;
+    left: 1184px;
+    position: absolute;
+    top: 851px;
+    width: 435px;
+  }
+  
+  .DISCUSSIONS .img {
+    height: 1024px;
+    left: 255px;
+    position: absolute;
+    top: 0;
+    width: 1330px;
+  }
+  
+  .DISCUSSIONS .rectangle-2 {
+    background-color: #0b0e33;
+    box-shadow: 0px 0px 4px 1px #00000080;
+    height: 131px;
+    left: 141px;
+    position: absolute;
+    top: 0;
+    width: 1444px;
+  }
+  
+  .DISCUSSIONS .text-wrapper {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 853px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-2 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1144px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-3 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 959px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-4 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-Regular", Helvetica;
+    font-size: 24.7px;
+    font-weight: 400;
+    left: 1323px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 51px;
+  }
+  
+  .DISCUSSIONS .quant-comm {
+    height: 79px;
+    left: 212px;
+    object-fit: cover;
+    position: absolute;
+    top: 25px;
+    width: 254px;
+  }
+  
+  .DISCUSSIONS .group {
+    height: 57px;
+    left: 1429px;
+    position: absolute;
+    top: 40px;
+    width: 60px;
+  }
+  
+  .DISCUSSIONS .section-title {
+    height: 71px;
+    left: 233px;
+    position: absolute;
+    top: 171px;
+    width: 1259px;
+  }
+  
+  .DISCUSSIONS .text {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 21px;
+    position: relative;
+    top: 28px;
+    width: 1040px;
+  }
+  
+  .DISCUSSIONS .title {
+    align-self: stretch;
+    color: #ffffff;
+    font-family: "Roboto", Helvetica;
+    font-size: 31.8px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 42.3px;
+    margin-top: -1.76px;
+    position: relative;
+    white-space: nowrap;
+  }
+  
+  .DISCUSSIONS .rectangle-3 {
+    background-color: #ffffffcc;
+    border-radius: 10px;
+    height: 50px;
+    left: 233px;
+    position: absolute;
+    top: 914px;
+    width: 1259px;
+  }
+  
+  .DISCUSSIONS .overlap-group-wrapper {
+    height: 38px;
+    left: 1433px;
+    position: absolute;
+    top: 920px;
+    width: 38px;
+  }
+  
+  .DISCUSSIONS .overlap-group {
+    border: 1px solid;
+    border-color: #8c8c8c;
+    border-radius: 7.45px;
+    height: 40px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 40px;
+  }
+  
+  .DISCUSSIONS .vector {
+    height: 22px;
+    left: 9px;
+    position: absolute;
+    top: 8px;
+    width: 22px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-5 {
+    color: #878787;
+    font-family: "TT Travels Trl-Medium", Helvetica;
+    font-size: 21.2px;
+    font-weight: 500;
+    left: 259px;
+    letter-spacing: 0;
+    line-height: 28.2px;
+    position: absolute;
+    top: 927px;
+    white-space: nowrap;
+    width: 312px;
+  }
+  
+  .DISCUSSIONS .rectangle-4 {
+    background-color: #ffffff1a;
+    border-radius: 10px;
+    height: 592px;
+    left: 233px;
+    position: absolute;
+    top: 273px;
+    width: 1259px;
+  }
+  
+  .DISCUSSIONS .div-wrapper {
+    height: 72px;
+    left: 942px;
+    position: absolute;
+    top: 648px;
+    width: 278px;
+  }
+  
+  .DISCUSSIONS .overlap-2 {
+    background-color: #3c5df7;
+    border-radius: 16.76px;
+    height: 72px;
+    position: relative;
+    width: 276px;
+    top: 22px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-6 {
+    color: #ffffffcc;
+    font-family: "TT Travels Trl-ExtraBold", Helvetica;
+    font-size: 22.7px;
+    font-weight: 800;
+    left: 18px;
+    letter-spacing: 0;
+    line-height: 34px;
+    position: absolute;
+    text-align: center;
+    top: 19px;
+    white-space: nowrap;
+    width: 241px;
+  }
+  
+  .DISCUSSIONS .h-1 {
+    color: #ffffff;
+    font-family: "TT Travels Trl-DemiBold", Helvetica;
+    font-size: 45px;
+    font-weight: 700;
+    left: 799px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 400px;
+    width: 575px;
+  }
+  
+  .DISCUSSIONS .group-2 {
+    height: 563px;
+    left: 267px;
+    position: absolute;
+    top: 250px;
+    width: 563px;
+  }
+  
+  .DISCUSSIONS .ellipse-2 {
+    background-color: #050505;
+    border-radius: 111.5px/8px;
+    filter: blur(43px);
+    height: 16px;
+    left: 437px;
+    position: absolute;
+    top: 758px;
+    width: 223px;
+  }
+  
+  
