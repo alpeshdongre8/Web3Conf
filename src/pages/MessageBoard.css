@@ -30,9 +30,7 @@
   }
   
 
-
-
-  .DISCUSSIONS {
+.DISCUSSIONS {
     background-color: #ffffff;
     display: flex;
     flex-direction: row;
@@ -201,7 +199,7 @@
   }
   
   .DISCUSSIONS .rectangle-3 {
-    
+    background-color: #ffffffcc;
     border-radius: 10px;
     height: 50px;
     left: 233px;
@@ -217,106 +215,68 @@
     top: 920px;
     width: 38px;
   }
-
-  .DISCUSSIONS .showcase{
-    color: #ffffff;
-    font-family: "TT Travels Trl-Bold", Helvetica;
+  
+  .DISCUSSIONS .overlap-group {
+    border: 1px solid;
+    border-color: #8c8c8c;
+    border-radius: 7.45px;
+    height: 40px;
+    left: -1px;
+    position: relative;
+    top: -1px;
+    width: 40px;
+  }
+  
+  .DISCUSSIONS .vector {
+    height: 22px;
+    left: 9px;
+    position: absolute;
+    top: 8px;
+    width: 22px;
+  }
+  
+  .DISCUSSIONS .text-wrapper-5 {
+    color: #878787;
+    font-family: "TT Travels Trl-Medium", Helvetica;
     font-size: 21.2px;
     font-weight: 500;
     left: 259px;
     letter-spacing: 0;
     line-height: 28.2px;
     position: absolute;
-    top: 880px;
+    top: 927px;
     white-space: nowrap;
     width: 312px;
   }
-
-  .DISCUSSIONS .msgboard{
-    background-color: #3c5df7;
-    color: #ffffff;
-    font-size: 22.7px;
-    font-family: "TT Travels Trl-Bold", Helvetica;
-    border-radius: 16.76px;
-    height: 65px;
-    position: relative;
-    width: 250px;
-    top: 15px;
-  }
-
+  
   .DISCUSSIONS .rectangle-4 {
-    background-color: #ffffff1a;
+    background-color: #ffffff33;
     border-radius: 10px;
     height: 592px;
     left: 233px;
     position: absolute;
     top: 273px;
     width: 1259px;
-  }
-  
-  .DISCUSSIONS .div-wrapper {
-    height: 72px;
-    left: 942px;
-    position: absolute;
-    top: 648px;
-    width: 278px;
-  }
-  
-  .DISCUSSIONS .overlap-2 {
-    background-color: #3c5df7;
-    border-radius: 16.76px;
-    height: 72px;
-    position: relative;
-    width: 276px;
-    top: 22px;
-  }
-  
-  .DISCUSSIONS .text-wrapper-6 {
-    color: #ffffffcc;
-    font-family: "TT Travels Trl-ExtraBold", Helvetica;
-    font-size: 22.7px;
-    font-weight: 800;
-    left: 18px;
-    letter-spacing: 0;
-    line-height: 34px;
-    position: absolute;
-    text-align: center;
-    top: 19px;
-    white-space: nowrap;
-    width: 241px;
-  }
-  
-  .DISCUSSIONS .h-1 {
+  } 
+
+  .DISCUSSIONS .enjoy{
     color: #ffffff;
-    font-family: "TT Travels Trl-DemiBold", Helvetica;
-    font-size: 45px;
-    font-weight: 700;
-    left: 799px;
-    letter-spacing: 0;
-    line-height: normal;
-    position: absolute;
-    text-align: center;
-    top: 400px;
-    width: 575px;
+    font-family: "TT Travels Trl-Medium", Helvetica;
+    right: 20%;
   }
-  
-  .DISCUSSIONS .group-2 {
-    height: 563px;
-    left: 267px;
+
+  .DISCUSSIONS .send-button{
+    background-color: #3c5df7;
+    font-family: "TT Travels Trl-Medium", Helvetica;
+    color: #ffffff;
     position: absolute;
-    top: 250px;
-    width: 563px;
+    left: 10;
+    right: 10;
   }
-  
-  .DISCUSSIONS .ellipse-2 {
-    background-color: #050505;
-    border-radius: 111.5px/8px;
-    filter: blur(43px);
-    height: 16px;
-    left: 437px;
-    position: absolute;
-    top: 758px;
-    width: 223px;
+
+  .DISCUSSIONS .like-button{
+    background-color: #3c5df7;
+    font-family: "TT Travels Trl-Medium", Helvetica;
+    color: #ffffff;
   }
-  
-  
+

@@ -40,16 +40,20 @@ export function About() {
               <div className="text-wrapper-4">Mrunal Pohekar</div>
               <div className="UI-UX-frontend-2">Product Designer(UI/UX),<br/>Frontend Dev  &amp; Motion Graphics</div>
             </div>
+            <a href="https://www.linkedin.com/in/sanskarmange2027" target="_blank" rel="noreferrer">
             <img
               className="bi-linkedin"
               alt="Bi linkedin"
               src="https://gateway.pinata.cloud/ipfs/QmSFrPcoyVqLtn6C8mwH4g1H5StBCRrPNE1KPKua8QoFRg/bi-linkedin-3.svg"
             />
+            </a>
+            <a href="https://twitter.com/sanskaaarM" target="_blank" rel="noreferrer">
             <img
               className="bi-twitter"
               alt="Bi twitter"
               src="https://gateway.pinata.cloud/ipfs/QmSFrPcoyVqLtn6C8mwH4g1H5StBCRrPNE1KPKua8QoFRg/bi-twitter-3.svg"
             />
+            </a>
             <img
               className="img"
               alt="Bi linkedin"

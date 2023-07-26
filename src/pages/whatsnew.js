@@ -152,21 +152,21 @@ export const WhatsNew = () => {
                     <p className="DISCLAIMER-news">
                       <span className="span">DISCLAIMER:&nbsp;&nbsp;News Letter is Used from </span>
                       <span className="text-wrapper-4">Blockworks</span>
-                      <span className="span"> For Educational Purpose Click here for the Newsletter: </span>
+                      <span className="span"> For Educational Purpose Click here for the Newsletter: </span>
                       <span className="text-wrapper-4">Blockworks</span>
                     </p>
                     <p className="DISCLAIMER-news-2">
                       <span className="span">DISCLAIMER:&nbsp;&nbsp;News Letter is Used from </span>
                       <span className="text-wrapper-4">Blockworks</span>
-                      <span className="span"> For Educational Purpose Click here for the Newsletter: </span>
+                      <span className="span"> For Educational Purpose Click here for the Newsletter: </span>
                       <span className="text-wrapper-4">Blockworks</span>
                     </p>
-                    <p className="DISCLAIMER-news-3">
+                    <div className="DISCLAIMER-news-3">
                       <span className="span">DISCLAIMER:&nbsp;&nbsp;News Letter is Used from </span>
                       <span className="text-wrapper-4">Blockworks</span>
-                      <span className="span"> For Educational Purpose Click here for the Newsletter: </span>
+                      <span className="span"> For Educational Purpose Click here for the Newsletter: </span>
                       <span className="text-wrapper-4">Blockworks</span>
-                    </p>
+                    </div>
                     <img
                       className="img"
                       alt="Image"
@@ -190,15 +190,44 @@ export const WhatsNew = () => {
           </div>
           <div className="div-wrapper">
             <div className="overlap-3">
-              <div className="text-wrapper-6">Home</div>
-              <div className="text-wrapper-7">What’s New</div>
-              <div className="text-wrapper-8">Discussions</div>
-              <div className="text-wrapper-9">About</div>
-              <img
-                className="quant-comm"
-                alt="Quant comm"
-                src="https://gateway.pinata.cloud/ipfs/QmNqF8bgLdVm6ykaBrzP3SZTYaE6pWm1Anmm61eHvaoV2f/quant-comm-4x-1.png"
-              />
+            <div className="text-wrapper-6">
+          <span onClick={() => handleNavigation('/home')}
+            style={{ cursor: 'pointer' }}
+            >
+            Home
+            </span>
+          </div>
+          <div className="text-wrapper-7">
+          <span onClick={() => handleNavigation('/whatsnew')}
+            style={{ cursor: 'pointer' }}
+            >
+            What’s New
+            </span>
+          </div>
+          <div className="text-wrapper-8">
+          <span onClick={() => handleNavigation('/discussion')}
+            style={{ cursor: 'pointer' }}
+            >
+            Discussion
+            </span>
+          </div>
+          <div className="text-wrapper-9">
+          <span onClick={() => handleNavigation('/about')}
+            style={{ cursor: 'pointer' }}
+            >
+            About
+            </span>
+          </div>
+          
+          <span onClick={() => handleNavigation('/home')}
+            style={{ cursor: 'pointer' }}
+            >
+          <img
+            className="quant-comm"
+            alt="Quant comm"
+            src="https://gateway.pinata.cloud/ipfs/QmSFrPcoyVqLtn6C8mwH4g1H5StBCRrPNE1KPKua8QoFRg/quant-comm-4x-1.png"
+          />
+          </span>
               <img
                 className="group-2"
                 alt="Group"
